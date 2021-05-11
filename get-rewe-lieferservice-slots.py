@@ -9,14 +9,14 @@ start_date = datetime.today().date().strftime('%Y-%m-%dT%H:%M:%S')
 end_date = (datetime.today().date() + timedelta(days=14)).strftime('%Y-%m-%dT%H:%M:%S')
 
 json_data = {
-            	"customerUuid": "2ac0989d-0cac-4f52-b6c4-a88114c08e0f",
-            	"slotId": '35c760a9-f02a-4f92-a063-18c255c6d3b9',
+            	"customerUuid": "",
+            	"slotId": '',
             	"serviceType": 'lieferservice',
 	            "timeSlotStartTime": None,
             	"timeSlotEndTime": None,
             	"cutoffTime": None,
             	"storeId": None,
-            	"zipCode": '51503',
+            	"zipCode": '',
 	            "undiscountedServiceFee": None,
             	"undiscountedServiceFeeNan": None,
             	"modifiedOrderId": None
